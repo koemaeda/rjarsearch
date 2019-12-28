@@ -1,0 +1,17 @@
+{
+  "name": "rjarsearch",
+  "version": "0.0.1",
+  "description": "Command-line tool to recursively search for text inside JAR files",
+  "main": "main.js",
+  "author": "Guilherme Maeda",
+  "license": "MIT",
+  "bin": {
+    "rjarsearch": "main.js"
+  },
+  "dependencies": {
+    "commander": "^4.0.1",
+    "get-stream": "^5.1.0",
+    "minimatch": "^3.0.4",
+    "runzip": "0.0.4"
+  }
+}
